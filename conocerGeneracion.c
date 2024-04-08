@@ -24,7 +24,7 @@ int main(void) {
 }
 
 // Construimos la función
-void conoceTuGeneracion(int edad) {
+void obtenerGeneracion(int edad) {
     // Evaluamos la edad es menor a 95
     if (edad < 95) {
         // Realizamos la  resta
