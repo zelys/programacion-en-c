@@ -23,6 +23,7 @@ int main(void) {
     return 0;
 }
 
+
 // Construimos la función
 void obtenerGeneracion(int edad) {
     // Evaluamos la edad es menor a 95
