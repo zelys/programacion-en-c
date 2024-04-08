@@ -1,7 +1,6 @@
 # ESTRUCTURAS DE CONTROL EN C
 
 ## Instrucción general de la actividad:
----
 
 ¿Preguntar la edad al usuario y que, al digitar, dependiendo de su edad, le entregue mensajes sobre su generación:
 
@@ -20,7 +19,6 @@ Se debe considerar implementar las siguientes estructuras de control:
 - Estructura de decisión switch
 
 ## Desarrollo de la actividad
----
 
 ### Requerimientos
 
@@ -37,7 +35,6 @@ El usuario ingresará por consola su edad, por lo que debemos calcular su año d
 Si no hay errores en el dato ingresado por el usuario, el programa evalúa el año de nacimiento del usuario y según sea el caso, debe mostrar un mensaje que indicando a que generación pertenece.
 
 ### Ejemplo de entrada y salida
----
 
 | Entrada | Salida |
 | --- | --- |
@@ -49,7 +46,6 @@ Si no hay errores en el dato ingresado por el usuario, el programa evalúa el a�
 | 101 | ¡Error!, la edad no es válida. |
 
 ## Pseudocódigo
----
 
 **Algoritmo conocerGeneracion:**
 
@@ -69,7 +65,7 @@ Si no hay errores en el dato ingresado por el usuario, el programa evalúa el a�
 **Fin Función**
 
 ## Desarrollo del código en C
----
+
 1. Creamos un nuevo proyecto que llamaremos **conocerGeneracion.**
 2. En la cabecera del archivo **main**, declaramos la librería que utilizaremos, y luego la constante **ANIO_ACTUAL** con el valor **2024**.
 3. Dentro del el método **main()** declaramos la variable que queremos capturar, en este caso **edad** de tipo **int** (entero).
@@ -80,7 +76,7 @@ Si no hay errores en el dato ingresado por el usuario, el programa evalúa el a�
 8. Por último imprimimos un mensaje indicando que el programa ha finalizado.
 
 ### Código de la función
----
+
 1. Con una estructura condicional **if** evaluamos si el valor de la variable **edad** es menor a 95 que es el rango máximo soportado. En caso que el valor sea mayor (o si es de tipo char) se imprime un mensaje de error y finaliza la función.
 2. Si el valor de **edad** es menor a 95, declaramos la variable **anioNacimiento** y la inicializamos con el valor de **ANIO_ACTUAL** menos el valor de **edad**.
 3. A continuación con una estructura condicional **if else-if** evaluamos si el valor de la variable **anioNacimiento** es mayor y menor al rango de años indicado para cada generación. 
