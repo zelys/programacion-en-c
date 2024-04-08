@@ -1,5 +1,8 @@
+# ESTRUCTURAS DE CONTROL EN C
+
 ## Instrucción general de la actividad:
 ---
+
 ¿Preguntar la edad al usuario y que, al digitar, dependiendo de su edad, le entregue mensajes sobre su generación:
 
 - Generación niños de posguerra (1930-1948)
@@ -16,8 +19,9 @@ Se debe considerar implementar las siguientes estructuras de control:
 - Estructura de decisión if...else
 - Estructura de decisión switch
 
-Desarrollo de la actividad
+## Desarrollo de la actividad
 ---
+
 ### Requerimientos
 
 1. Preguntar la edad al usuario.
@@ -33,6 +37,7 @@ El usuario ingresará por consola su edad, por lo que debemos calcular su año d
 Si no hay errores en el dato ingresado por el usuario, el programa evalúa el año de nacimiento del usuario y según sea el caso, debe mostrar un mensaje que indicando a que generación pertenece.
 
 ### Ejemplo de entrada y salida
+---
 
 | Entrada | Salida |
 | --- | --- |
@@ -45,7 +50,8 @@ Si no hay errores en el dato ingresado por el usuario, el programa evalúa el a�
 
 ## Pseudocódigo
 ---
-**Algoritmo conocer_generacion:**
+
+**Algoritmo conocerGeneracion:**
 
 1. Leer edad del usuario
 2. Llamar a la función obtenerGeneracion()
@@ -64,13 +70,13 @@ Si no hay errores en el dato ingresado por el usuario, el programa evalúa el a�
 
 ## Desarrollo del código en C
 ---
-1. Creamos un nuevo proyecto que llamaremos **conocer_generacion.**
+1. Creamos un nuevo proyecto que llamaremos **conocerGeneracion.**
 2. En la cabecera del archivo **main**, declaramos la librería que utilizaremos, y luego la constante **ANIO_ACTUAL** con el valor **2024**.
 3. Dentro del el método **main()** declaramos la variable que queremos capturar, en este caso **edad** de tipo **int** (entero).
-4. Luego, declaramos la función **conoceTuGeneracion()**, de tipo **void** que recibe un parámetro de tipo **int**.
+4. Luego, declaramos la función **obtenerGeneracion()**, de tipo **void** que recibe un parámetro de tipo **int**.
 5. Con el método **printf** solicitamos al usuario que ingrese su edad.
 6. Con el método **sacanf** leemos la entrada del usuario y asignamos el valor a la variable **edad.**
-7. Usamos la función **conoceTuGeneracion()**, y le pasamos como parámetro la variable **edad**.
+7. Usamos la función **obtenerGeneracion()**, y le pasamos como parámetro la variable **edad**.
 8. Por último imprimimos un mensaje indicando que el programa ha finalizado.
 
 ### Código de la función
